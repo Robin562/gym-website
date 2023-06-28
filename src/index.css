@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
+
+.notAClass {
+  color: #f8f4eb;
+  color: #efe6e6;
+  color: #dfcccc;
+  color: #5e0000;
+  color: #ffe1e0;
+  color: #ffa6a3;
+  color: #ff6b66;
+  color: #ffcd5b;
+  color: #ffc132;
+}
